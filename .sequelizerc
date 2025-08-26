@@ -1,0 +1,8 @@
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('src', 'config', 'config.json'),   // nơi chứa cấu hình DB
+  'models-path': path.resolve('src', 'models'),             // thư mục models
+  'seeders-path': path.resolve('src', 'seeders'),           // thư mục seeders
+  'migrations-path': path.resolve('src', 'migrations')      // thư mục migrations
+};
